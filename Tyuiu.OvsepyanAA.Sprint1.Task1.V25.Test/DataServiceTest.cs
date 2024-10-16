@@ -4,7 +4,7 @@ using System;
 
 using Tyuiu.OvsepyyanAA.Sprint1.Task1.V25.Lib;
 
-namespace Tyuiu.SpirinIS.Sprint1.Task1.V0.Test
+namespace Tyuiu.SpirinIS.Sprint1.Task1.V25.Test
 {
     [TestClass]
     public class DataServiceTest

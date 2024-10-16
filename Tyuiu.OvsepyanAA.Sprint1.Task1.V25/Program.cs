@@ -15,7 +15,6 @@ namespace Tyuiu.OvsepyyanAA.Sprint1.Task1.V25
             DataService ds = new DataService();
 
             Console.Title = "Спринт #1 | Выполнил: Овсепян А. А. | СМАРТб-24-1";
-            //Длинна строки 75 символов
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
