@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using Tyuiu.OvsepyyanAA.Sprint1.Task1.V25.Lib;
+﻿using Tyuiu.OvsepyyanAA.Sprint1.Task1.V25.Lib;
 
 namespace Tyuiu.OvsepyyanAA.Sprint1.Task1.V25
 {
@@ -43,7 +37,6 @@ namespace Tyuiu.OvsepyyanAA.Sprint1.Task1.V25
             Console.WriteLine("***************************************************************************");
 
             Console.WriteLine(ds.Calculate(x, y));
-
             Console.ReadLine();
         }
     }
