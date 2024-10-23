@@ -37,7 +37,7 @@ namespace Tyuiu.OvsepyanAA.Sprint1.Task3.V4
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine (ds.PurchaseAmount(priceNotebook: priceNotebook, priceCover, quantity));
+            Console.WriteLine (ds.PurchaseAmount(priceNotebook, priceCover, quantity));
             Console.ReadKey();
         }
     }
