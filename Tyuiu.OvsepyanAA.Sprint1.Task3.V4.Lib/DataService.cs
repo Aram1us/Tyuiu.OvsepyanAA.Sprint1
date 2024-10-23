@@ -12,13 +12,14 @@ namespace Tyuiu.OvsepyyanAA.Sprint1.Task3.V4.Lib
     {
         public double PurchaseAmount(double priceNotebook, double priceCover, int quantity)
         {
-           var res = quantity * (priceNotebook + priceCover);
+            var res = quantity * (priceNotebook + priceCover);
             return Math.Round(res, 3);
-        }
 
-      
-        
-            
+
+
+
+
         }
     }
 }
+
