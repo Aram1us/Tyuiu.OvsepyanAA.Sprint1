@@ -6,6 +6,7 @@ namespace Tyuiu.OvsepyyanAA.Sprint1.Task1.V25
     {
         static void Main(string[] args)
         {
+
             DataService ds = new DataService();
 
             Console.Title = "Спринт #1 | Выполнил: Овсепян А. А. | СМАРТб-24-1";
