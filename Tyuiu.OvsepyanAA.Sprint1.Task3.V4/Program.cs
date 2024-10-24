@@ -1,6 +1,6 @@
 ﻿using Tyuiu.OvsepyyanAA.Sprint1.Task3.V4.Lib;
 
-namespace Tyuiu.OvsepyanAA.Sprint1.Task3.V4
+namespace Tyuiu.OvsepyanAA.Sprint1.Task4.V4
 {
     internal class Program
     {
