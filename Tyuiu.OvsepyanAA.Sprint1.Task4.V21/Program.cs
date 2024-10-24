@@ -21,7 +21,7 @@ namespace Tyuiu.OvsepyanAA.Sprint1.Task4.V21
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("(1 + x), 2) - y / (x + y) = " + ds.Calculate(x, y));
+            Console.WriteLine("(1 + x, 2) - y) / (x + y) = " + ds.Calculate(x, y));
 
             Console.ReadKey();
         }
