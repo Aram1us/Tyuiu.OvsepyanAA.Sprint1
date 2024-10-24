@@ -12,9 +12,9 @@ namespace Tyuiu.OvsepyanAA.Sprint1.Task4.V21.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double x = 3;
-            double y = 5;
-            double wait = 15.375;
+            double x = 60;
+            double y = 30;
+            double wait = 41.011;
             var res = ds.Calculate(x, y);
             Assert.AreEqual(wait, res);
         }
