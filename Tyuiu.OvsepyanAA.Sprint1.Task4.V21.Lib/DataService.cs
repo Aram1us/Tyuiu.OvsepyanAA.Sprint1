@@ -12,8 +12,8 @@ namespace Tyuiu.OvsepyanAA.Sprint1.Task4.V21.Lib
     {
         public double Calculate(double x, double y)
         {
-            var res = (Math.Pow((1 + x), 2) - 5 / (x + y));
-            return res;
+            var res = Math.Pow(1 + x, 2) - y / x + y;
+            return Math.Round(res, 3);
         }
     }
 }
