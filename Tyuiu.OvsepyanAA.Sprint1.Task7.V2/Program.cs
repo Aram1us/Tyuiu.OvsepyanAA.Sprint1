@@ -1,7 +1,14 @@
-﻿using Tyuiu.OvsepyanAA.Sprint1.Task4.V21.Lib;
-namespace Tyuiu.OvsepyanAA.Sprint1.Task4.V21
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+using Tyuiu.OvsepyanAA.Sprint1.Task7.V2.Lib;
+
+namespace Tyuiu.OvsepyanAA.Sprint1.Task7.V2
 {
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {

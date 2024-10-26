@@ -1,9 +1,9 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Newtonsoft.Json.Linq;
 using System;
-using Tyuiu.OvsepyanAA.Sprint1.Task6.V17.Lib;
+using Tyuiu.OvsepyanAA.Sprint1.Task7.V2.Lib;
 
-namespace Tyuiu.OvsepyanAA.Sprint1.Task6.V17.Test
+namespace Tyuiu.OvsepyanAA.Sprint1.Task7.V2.Test
 {
     [TestClass]
     public class DataServiceTest
@@ -12,9 +12,11 @@ namespace Tyuiu.OvsepyanAA.Sprint1.Task6.V17.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            string value = "123";
-            bool res = ds.CheckPalindrome(value);
-            Assert.AreEqual(false, res);
+            double x = 30;
+            double y = 60;
+            double wait = 0.564;
+            var res = ds.Calculate(x, y);
+            Assert.AreEqual(wait, res);
 
 
         }
